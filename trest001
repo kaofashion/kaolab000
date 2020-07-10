@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"></meta>
+	<title>CSS 教學</title>
+	<style type="text/css">
+	.title{font-weigh:bold;font-size:20px}
+	.content{height:200px;width:300px;padding:10px;border:1px solid blue;margin-top:10px;margin-bottom:10px;}
+	.keyword{color:red}
+	.box{
+	     position:absolute;left:200px;top:50px;
+		 width:100px;height:100px;background-color:black
+	}
+	.box1{
+	     position:relative;left:200px;top:200px;
+		 width:100px;height:100px;background-color:blue
+	}
+	</style>
+</head>
+
+<body>
+  <div class="title">今天天氣不錯</div>
+  <div class="content">我在家裡練
+  <span class="keyword">CSS基本練習</span><br/>
+  持續進行
+  </div>
+  
+  <div class="box"></div>
+  <div class="box1"></div>
+  
+  <div class="title">目前腰酸背痛</div>
+  <div class="content">我在家裡練</div>
+  <span class="keyword">才練一小時</span><br/>
+ 我的手機是AUSU<span style="position:relative;top:-8px;">TM</span>
+  </div>
+  
+</body>
+</html>
+
+ 
